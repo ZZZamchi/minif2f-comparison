@@ -16,9 +16,7 @@
 ├── analysis/           # 分析脚本和文档
 │   └── minif2f/       # miniF2F 分析
 │       ├── compare_datasets.py
-│       ├── download_tonic_minif2f.py
 │       └── README.md
-├── download_benchmarks.py
 └── README.md
 ```
 
