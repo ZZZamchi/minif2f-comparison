@@ -56,12 +56,6 @@ Putnam 数学竞赛问题基准（1962-2025）。
 
 ## 使用方法
 
-### 下载数据集
-
-```bash
-python download_benchmarks.py
-```
-
 ### 运行分析
 
 ```bash
