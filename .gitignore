@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (large JSON files)
+# Uncomment if you don't want to commit large data files
+# minif2f_v1/*.json
+# datasets/*.json
+# datasets/*.jsonl
+
+# Word documents (temporary)
+~$*.docx
+# Duplicate Chinese filename files
+miniF2F_比较报告.docx
+项目说明.txt
+
+# Statistics and reports (can be regenerated)
+statistics.json
+analysis_report.md
+
+# Cache
+.cache/
+*.cache
+
+# Logs
+*.log

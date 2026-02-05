@@ -1,0 +1,32 @@
+miniF2F v1 vs v2 数据集比较分析项目
+========================================
+
+项目完成情况：
+✓ 已下载原始 v1 数据集（来自 Hugging Face: Tonic/MiniF2F）
+✓ 已加载 v2c 和 v2s 数据集
+✓ 已完成详细比较分析
+✓ 已生成 Word 格式报告（包含具体示例）
+
+主要文件：
+1. miniF2F_comparison_report.docx - 详细比较报告（推荐查看）
+   - 包含数据集统计信息表格
+   - 包含 5 个具体问题的详细对比
+   - 每个示例包含 v1、v2c、v2s 三个版本的完整对比
+   - 包含差异分析
+
+2. compare_datasets.py - 基础比较脚本
+3. generate_detailed_report.py - 详细报告生成脚本
+4. download_tonic_minif2f.py - v1 数据集下载脚本
+
+数据文件：
+- minif2f_v1/miniF2F_v1.json - v1 数据集（488 条记录）
+- statistics.json - 统计信息
+
+主要发现：
+1. v1、v2c、v2s 都包含 488 条记录（valid: 244, test: 244）
+2. v2c 版本保持竞赛原样，选择题包含所有选项
+3. v2s 版本简化了陈述，直接给出答案
+4. v2 版本确保正式和非正式陈述完全匹配
+
+查看报告：
+直接打开 miniF2F_comparison_report.docx 查看详细分析
