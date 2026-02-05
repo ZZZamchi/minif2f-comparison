@@ -44,11 +44,12 @@ wheels/
 ~$*.docx
 *.docx
 
-# Upload-related files (Chinese filenames)
+# Upload-related files
 *上传*
 *项目*
 *快速*
 README_上传*
+*.docx
 
 # Statistics and reports (can be regenerated)
 statistics.json
