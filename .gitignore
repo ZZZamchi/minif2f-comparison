@@ -36,9 +36,8 @@ wheels/
 
 # Data files (large JSON files)
 # Uncomment if you don't want to commit large data files
-# minif2f_v1/*.json
-# datasets/*.json
-# datasets/*.jsonl
+# benchmarks/minif2f/*.json
+# benchmarks/minif2f/*.jsonl
 
 # Word documents (temporary)
 ~$*.docx
